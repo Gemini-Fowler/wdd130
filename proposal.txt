@@ -1,0 +1,127 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program? 
+    
+    "Mile 2 Mile"
+
+2. What real-world problem will your program address or help to solve? 
+
+    This will allow parents to track the developmental milestones of their children with 
+    personalized messages, image uploads, and the ability to view it in a scrapbook type format.
+    As a parent in an apartment, I do not have the space to have a real life scrapbook so I want
+    to store it in a place that is safe and easily accessed
+
+3. What will you learn from developing this program?
+
+    Soft Skills
+    Problem-Solving: Breaking down a complex project into smaller, manageable tasks.
+    Critical Thinking: Deciding on the best tools, technologies, and design patterns.
+    Attention to Detail: Tracking edge cases (e.g., what if no milestones are added?).
+    Time Management: Staying organized and balancing different tasks within the project.
+
+    What I'll Gain by the End of This Project
+    Practical Experience building a full-stack Python web app.
+    Confidence working with databases, file uploads, and web forms.
+    Portfolio Project to showcase if you want to apply for internships, jobs, or freelancing gigs.
+    Transferable Skills that will prepare you for more advanced projects (like e-commerce platforms, social media apps, etc.).
+
+4. What Python modules will your program use?
+
+    flask – Web interface
+    sqlite3 – Database storage
+    os – File and directory management
+    werkzeug – Secure file handling
+    datetime – Date and time operations
+    flask-login (Optional) – User authentication
+
+    (Some examples are: csv, datetime, functools, matplotlib, math,
+    pandas, pytest, random, requests, and tkinter.)
+
+5. List the names of functions you will need?
+
+    User Authentication (Optional)
+    register_user()
+    login_user()
+    logout_user()
+    is_authenticated()
+
+    CRUD Operations for Milestones
+    add_milestone()
+    get_milestones()
+    update_milestone()
+    delete_milestone()
+
+    Image Upload Handling
+    save_image()
+    Webpage Rendering (Using Flask)
+    render_home_page()
+    render_scrapbook()
+
+    Database Handling
+    init_db()
+    get_db_connection()
+    Date Handling
+    get_current_date()
+    parse_date()
+
+    Utility Functions
+    ensure_upload_folder_exists()
+    get_all_children()
+
+    (Remember that the most reusable functions don't get user input and
+    don't print results but instead have parameters and return a result.
+    Functions that get user input and print results are important and do
+    useful work but are not easily reusable.)
+
+    (Remember also that it's hard to test functions that get user input
+    and print results. It's easy to test functions that don't get user
+    input and don't print results but instead have parameters and return
+    a result. Therefore, you should write most of your program functions
+    to have parameters and return a result.)
+
+6. List the names of the test functions you will write.
+
+    1. Test User Authentication Functions
+    test_register_user()
+    test_login_user()
+    test_logout_user()
+    test_is_authenticated()
+
+    2. Test CRUD Operations for Milestones
+    test_add_milestone()
+    test_get_milestones()
+    test_update_milestone()
+    test_delete_milestone()
+
+    3. Test Image Upload Handling
+    test_save_image_with_valid_file()
+    test_save_image_with_no_file()
+    test_save_image_with_invalid_filename()
+
+    4. Test Webpage Rendering
+    test_render_home_page()
+    test_render_scrapbook_with_milestones()
+    test_render_scrapbook_without_milestones()
+
+    5. Test Database Handling
+    test_init_db()
+    test_get_db_connection()
+    test_database_inserts_and_queries()
+
+    6. Test Date Handling Functions
+    test_get_current_date()
+    test_parse_date_with_valid_string()
+    test_parse_date_with_invalid_string()
+
+    7. Test Utility Functions
+    test_ensure_upload_folder_exists()
+    test_get_all_children()
