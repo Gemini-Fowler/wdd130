@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta name="description" content="Jonas Crothers | CSS | Coding | WDD130 | Home Page" />
+        <meta name="author" content="Jonas Crothers" />
+        <link rel="stylesheet" href="styles/rafting.css" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <title>Jonas Crothers | WDD 130</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>Welcome to White Water Rafting Adventures!</h1>
+        </section>
+
+        <div class="grid">
+            <main>
+                <!-- <h1>Jonas Crothers | WDD 130</h1>
+                <img src="images/profile.png" alt="Hello, my name is Jonas Crothers" width="200">
+                <p>Hello! My name is Jonas Crothers and I am from Rathdrum, Idaho. I enjoy spending time with my family. 
+                    As a new father who works full time and goes to school full time, getting time with my son is extremely valuable. </p>
+ -->
+                <!-- Call to Action Section -->
+                <section class="cta">
+                    <h2>Ready for your next adventure?</h2>
+                    <p>Join us for an unforgettable rafting experience. <a href="trips.html">Check out our trips now!</a></p>
+                </section>
+
+                <!-- About Rafting Section with CSS Grid Layout -->
+                <section class="about-rafting">
+                    <div class="grid">
+                        <div>
+                            <img src="images/rafting1.jpg" alt="Rafting experience">
+                            <p>Discover our thrilling rafting adventures!</p>
+                        </div>
+                        <div>
+                            <img src="images/rafting2.jpg" alt="Beautiful river">
+                            <p>Explore scenic river views on our trips.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Newsletter Signup Form -->
+                <section class="newsletter">
+                    <h2>Sign up for our Newsletter</h2>
+                    <form action="/subscribe" method="POST">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required><br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required><br>
+                        <button type="submit">Sign Up</button>
+                    </form>
+                </section>
+
+<!--                 <ul class="box">
+                    <li><a href="https://www.churchofjesuschrist.org/temples/details/spokane-washington-temple" target="_blank">Spokane Washington Temple</a></li>
+                    <li><a href="https://www.churchofjesuschrist.org/temples/details/phoenix-arizona-temple" target="_blank">Phoenix Arizona Temple</a></li>
+                    <li><a href="https://www.churchofjesuschrist.org/temples/details/provo-city-center-temple" target="_blank">Provo City Center Temple</a></li>
+                </ul>
+ -->            </main>
+
+            <aside class="box">
+                <h2>Idaho</h2>
+                <img src="images/idaho.png" alt="Idaho landscape">
+                <p>Idaho is a beautiful place to live with a family. With plenty of lush forests and rolling hills, Idaho has been a natural paradise for people to come and explore.</p>
+            </aside>
+        </div>
+
+        <footer>
+            <p>©️2024 👪 Jonas Crothers 👪 Rathdrum, Idaho</p>
+        </footer>
+    </body>
+</html>
