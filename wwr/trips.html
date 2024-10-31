@@ -1,98 +1,139 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-    <meta name="description" content="Explore White Water Rafting Trips" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trips Page: Lazy River Rafting</title>
+    <meta
+      name="description"
+      content="The rafting website 'Trips' page, giving customers the details on trips that the company offers to clients."
+    />
     <meta name="author" content="Jonas Crothers" />
     <link rel="stylesheet" href="styles/rafting.css" />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <title>Rafting Trips | WDD 130</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <img src="images/wwr-logo.png" alt="Lazy River Rafting" width="100">
-        <nav>
-            <ul class="navigation">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
+      <img src="images/wwr-logo.png" alt="Rafting Site Logo" />
+      <nav>
+        <ul class="top-navigation">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="trips.html">Trips</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
     </header>
-
-    <div class="grid">
-        <main>
-            <section class="cta">
-                <h2>Book Your Rafting Adventure Today!</h2>
-                <p>Contact us now to secure your spot for an exhilarating white-water rafting experience!</p>
-                <a href="contact.html">Contact Us</a>
-            </section>
-
-            <section class="trip-descriptions">
-                <h2>Our Popular Rafting Trips</h2>
-                <div class="grid-trip">
-                    <div class="trip">
-                        <img src="../images/river1.jpg" alt="River Rapids Adventure">
-                        <h3>River Rapids Adventure</h3>
-                        <p>Experience the thrill of navigating through Class III and IV rapids in the scenic wilderness.</p>
-                    </div>
-                    <div class="trip">
-                        <img src="../images/river2.jpg" alt="Family Friendly River Rafting">
-                        <h3>Family Friendly River Rafting</h3>
-                        <p>A relaxing trip through calm waters suitable for all ages, with gentle rapids and plenty of time to enjoy nature.</p>
-                    </div>
-                    <div class="trip">
-                        <img src="../images/river3.jpg" alt="Extreme Adventure Trip">
-                        <h3>Extreme Adventure Trip</h3>
-                        <p>For the true adventurers, face Class V rapids on a daring journey through rugged canyons.</p>
-                    </div>
-                </div>
-            </section>
-
-            <section class="trip-table">
-                <h2>Available Trips Overview</h2>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Trip Name</th>
-                            <th>Duration</th>
-                            <th>Difficulty Level</th>
-                            <th>Price (per person)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>River Rapids Adventure</td>
-                            <td>3 Hours</td>
-                            <td>Moderate</td>
-                            <td>$120</td>
-                        </tr>
-                        <tr>
-                            <td>Family Friendly River Rafting</td>
-                            <td>2 Hours</td>
-                            <td>Easy</td>
-                            <td>$80</td>
-                        </tr>
-                        <tr>
-                            <td>Extreme Adventure Trip</td>
-                            <td>4 Hours</td>
-                            <td>Hard</td>
-                            <td>$150</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-        </main>
-    </div>
-
+    <main>
+      <div class="top-page-div">
+        <h1>Have an Adventure</h1>
+        <p>
+            Embark on an unforgettable adventure with our expertly 
+            guided whitewater rafting trips! Whether you're an 
+            experienced rafter seeking a thrilling challenge or a 
+            first-timer excited to experience the rush of the 
+            rapids, we have the perfect trip for you. Explore our 
+            diverse selection of rafting adventures designed for 
+            all skill levels and preferences.
+        </p>
+      </div>
+      <h2 class="team-heading">Our Expeditions</h2>
+      <div class="team-members">
+        <section class="team-photos">
+          <figure>
+            <img src="images/beginner-img.jpg" alt="Crystal Rapids River" />
+            <figcaption>Crystal Rapids River</figcaption>
+          </figure>
+          <figure>
+            <img src="images/intermediate-img.jpg" alt="Avalon River" />
+            <figcaption>Avalon River</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="images/advanced-img.jpg"
+              alt="Silver Serpent River"
+            />
+            <figcaption>Silver Serpent River</figcaption>
+          </figure>
+        </section>
+      </div>
+      <div class="map">
+        <section class="text-box">
+          <p>
+            <span class="bold-text"
+              >Discover the Ultimate Whitewater Rafting Adventure with Lazy River Rafting!</span
+            >
+          </p>
+          <p>
+            At Lazy River, we focus on crafting unforgettable whitewater rafting 
+            adventures that combine thrilling excitement with the breathtaking 
+            beauty of nature. Whether you're an adventure seeker in search of 
+            your next challenge or a family looking for a unique way to bond, 
+            our expertly guided trips have something for everyone.
+          </p>
+        </section>
+        <table>
+          <caption>
+            Trips and Pricing
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">River</th>
+              <th scope="col">Single Person Price</th>
+              <th scope="col">Trip Lengths</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Crystal Rapids</th>
+              <td>Per Day: $600</td>
+              <td>1-2 Days</td>
+            </tr>
+            <tr>
+              <th scope="row">Avalon</th>
+              <td>Per Day: $700</td>
+              <td>2-4 Days</td>
+            </tr>
+            <tr>
+              <th scope="row">Silver Serpent</th>
+              <td>Per Day: $800</td>
+              <td>3-5 Days</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <th scope="row" colspan="2">Maximum Seats Per Trip</th>
+              <td>8</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+      <div class="call-to-action">
+        <h2>Embark On Your Adventure Today</h2>
+        <section>
+            Don’t miss out on your next adventure! With our expert 
+            guides and breathtaking locations, we promise an 
+            unforgettable experience. Contact us by phone or email 
+            to secure your spot and start planning your exciting 
+            journey. The river is calling—are you ready to answer?
+          <a href="contact.html">
+            <button>Get In Touch</button>
+          </a>
+        </section>
+      </div>
+    </main>
     <footer>
-        <p>©️2024 Jonas Crothers, Rathdrum, Idaho</p>
+        <p>©️2024 | Lazy River Rafting | Jonas Crothers</p>
         <nav class="sociallinks">
-            <a href="https://linkedin.com"><img src="../images/linkedin.png" alt="LinkedIn"></a>
-            <a href="https://facebook.com"><img src="../images/facebook.png" alt="Facebook"></a>
+          <a href="https://facebook.com">
+            <img src="images/icons8-facebook-48.png" alt="Facebook" width="40" />
+          </a>
+          <a href="https://linkedin.com/">
+            <img src="images/icons8-linkedin-48.png" alt="LinkedIn" width="40" />
+          </a>
+          <a href="https://instagram.com">
+            <img src="images/icons8-instagram-48.png" alt="Instagram" width="40" />
+          </a>
         </nav>
-        <a href="../images/trips-wireframe.png" target="_blank">View Wireframe</a>
-    </footer>
-</body>
+      </footer>
+  </body>
 </html>

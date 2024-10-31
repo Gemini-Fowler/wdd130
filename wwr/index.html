@@ -1,85 +1,117 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <meta name="description" content="Jonas Crothers | CSS | Coding | WDD130 | Home Page" />
-        <meta name="author" content="Jonas Crothers" />
-        <link rel="stylesheet" href="styles/rafting.css" />
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-        <title>Jonas Crothers | WDD 130</title>
-    </head>
-    <body>
-        <header>
-            <nav>
-                <ul class="navigation">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="trips.html">Trips</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <!-- Hero Section -->
-        <section class="hero">
-            <h1>Welcome to White Water Rafting Adventures!</h1>
-        </section>
-
-        <div class="grid">
-            <main>
-                <!-- <h1>Jonas Crothers | WDD 130</h1>
-                <img src="images/profile.png" alt="Hello, my name is Jonas Crothers" width="200">
-                <p>Hello! My name is Jonas Crothers and I am from Rathdrum, Idaho. I enjoy spending time with my family. 
-                    As a new father who works full time and goes to school full time, getting time with my son is extremely valuable. </p>
- -->
-                <!-- Call to Action Section -->
-                <section class="cta">
-                    <h2>Ready for your next adventure?</h2>
-                    <p>Join us for an unforgettable rafting experience. <a href="trips.html">Check out our trips now!</a></p>
-                </section>
-
-                <!-- About Rafting Section with CSS Grid Layout -->
-                <section class="about-rafting">
-                    <div class="grid">
-                        <div>
-                            <img src="images/rafting1.jpg" alt="Rafting experience">
-                            <p>Discover our thrilling rafting adventures!</p>
-                        </div>
-                        <div>
-                            <img src="images/rafting2.jpg" alt="Beautiful river">
-                            <p>Explore scenic river views on our trips.</p>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Newsletter Signup Form -->
-                <section class="newsletter">
-                    <h2>Sign up for our Newsletter</h2>
-                    <form action="/subscribe" method="POST">
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" required><br>
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required><br>
-                        <button type="submit">Sign Up</button>
-                    </form>
-                </section>
-
-<!--                 <ul class="box">
-                    <li><a href="https://www.churchofjesuschrist.org/temples/details/spokane-washington-temple" target="_blank">Spokane Washington Temple</a></li>
-                    <li><a href="https://www.churchofjesuschrist.org/temples/details/phoenix-arizona-temple" target="_blank">Phoenix Arizona Temple</a></li>
-                    <li><a href="https://www.churchofjesuschrist.org/temples/details/provo-city-center-temple" target="_blank">Provo City Center Temple</a></li>
-                </ul>
- -->            </main>
-
-            <aside class="box">
-                <h2>Idaho</h2>
-                <img src="images/idaho.png" alt="Idaho landscape">
-                <p>Idaho is a beautiful place to live with a family. With plenty of lush forests and rolling hills, Idaho has been a natural paradise for people to come and explore.</p>
-            </aside>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page: Lazy River Rafting</title>
+    <meta
+      name="description"
+      content="The rafting website Home page with the information on the company, a newsletter, and a link to the Trips page."
+    />
+    <meta name="author" content="Jonas Crothers" />
+    <link rel="stylesheet" href="styles/rafting.css" />
+  </head>
+  <body>
+    <header>
+      <img src="images/wwr-logo.png" alt="Rafting Site Logo" />
+      <nav>
+        <ul class="top-navigation">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="trips.html">Trips</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="hero">
+        <h1>Lazy River Rafting</h1>
+        <h2 class="hero-phrase">An Adventure Made For The Whole Family</h2>
+        <img src="images/rafting_lunch.jpg" alt="Background Rafting Scene" />
+      </div>
+      <div class="content">
+        <h2>Unforgettable Whitewater Adventures</h2>
+        <p>
+            Join us for an unforgettable adventure on some of the most stunning 
+            and thrilling rivers. Whether you're an experienced rafter or trying 
+            it for the first time, we have the ideal trip waiting for you!
+        </p>
+        <div class="trips">
+          <div class="trip">
+            <img src="images/beginner-img.jpg" alt="Crystal Rapids" />
+            <h3>Beginner Rafting</h3>
+            <p>
+                Experience the Crystal Rapids River, an ideal adventure for 
+                families and beginners. Enjoy a fun and safe rafting trip guided 
+                by our expert team, with gentle waters that your kids will adore.
+            </p>
+          </div>
+          <div class="trip">
+            <img src="images/intermediate-img.jpg" alt="Avalon River" />
+            <h3>Intermediate Rafting</h3>
+            <p>
+                Elevate your adventure on the Avalon River, perfect for those 
+                seeking an intermediate experience. Navigate more challenging 
+                rapids while taking in the stunning scenery that surrounds you.
+            </p>
+          </div>
+          <div class="trip">
+            <img src="images/advanced-img.jpg" alt="Silver Serpent River" />
+            <h3>Advanced Rafting</h3>
+            <p>
+                For seasoned rafters, the Silver Serpent River presents an 
+                advanced challenge that delivers the thrill of a lifetime, 
+                featuring intense rapids and technical sections.
+            </p>
+          </div>
         </div>
-
-        <footer>
-            <p>©️2024 👪 Jonas Crothers 👪 Rathdrum, Idaho</p>
-        </footer>
-    </body>
+        <div class="call-to-action">
+          <h2>Embark On Your Adventure Today</h2>
+          <section>
+            Interested in our trip options? We have something for everyone, 
+            whether you're looking for a relaxing, family-friendly experience 
+            or thrilling, adrenaline-pumping rapids. Click the button below to 
+            discover the exciting adventures we offer. Your perfect outing 
+            could be just a click away!
+            <a href="trips.html">
+              <button>See Trips</button>
+            </a>
+          </section>
+        </div>
+        <div class="newsletter-signup">
+          <h2>Join Our Newsletter</h2>
+          <p>
+            Allow us to keep you updated with the latest news, special offers,
+            and upcoming or new trips. Subscribe to our newsletter down below!
+          </p>
+          <form>
+            <div class="form-group">
+              <label for="full-name">Full Name:</label>
+              <input type="text" id="full-name" name="full-name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <button type="submit">Subscribe To Our Newsletter</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+        <p>©️2024 | Lazy River Rafting | Jonas Crothers</p>
+        <nav class="sociallinks">
+          <a href="https://facebook.com">
+            <img src="images/icons8-facebook-48.png" alt="Facebook" width="40" />
+          </a>
+          <a href="https://linkedin.com/">
+            <img src="images/icons8-linkedin-48.png" alt="LinkedIn" width="40" />
+          </a>
+          <a href="https://instagram.com">
+            <img src="images/icons8-instagram-48.png" alt="Instagram" width="40" />
+          </a>
+        </nav>
+      </footer>
+  </body>
 </html>
+

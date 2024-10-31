@@ -6,7 +6,25 @@
     <title>Milestone Tracker</title>
 </head>
 <body>
-    <h1>Welcome to Mile 2 Mile Milestone Tracker</h1>
+    <h1>Welcome to Mile 2 Mile<!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Milestone Tracker</title>
+        </head>
+        <body>
+            <h1>The Milestone Tracker for Parents of All Kinds</h1>
+            <h2>Select a child to view their scrapbook:</h2>
+            <ul>
+                {% for child in children %}
+                <li><a href="{{ url_for('scrapbook', child_name=child) }}">{{ child }}</a></li>
+                {% endfor %}
+            </ul>
+            <a href="{{ url_for('add_milestone_route') }}">Add New Milestone</a> <!-- Link to add milestone page -->
+        </body>
+        </html>
+         Mile Milestone Tracker</h1>
     <h2>Select a child to view their scrapbook:</h2>
     <ul>
         {% for child in children %}

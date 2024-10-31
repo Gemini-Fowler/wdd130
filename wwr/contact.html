@@ -1,112 +1,158 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us: Lazy River Rafting</title>
+    <meta
+      name="description"
+      content="The rafting website 'Contact' page, email infomation, phone numbers, etc."
+    />
     <meta name="author" content="Jonas Crothers" />
-    <meta name="description" content="Contact Lazy River Rafting for inquiries, reservations, and more. Get our contact details, meet our team, and send us a message directly from the page." />
-    <title>Contact Us - Lazy River Rafting</title>
-    <link rel="stylesheet" href="styles/rafting.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles/rafting.css" />
+  </head>
+  <body>
     <header>
-        <img src="images/wwr-logo.png" alt="Lazy River Rafting" width="100">
-        <nav>
-            <ul class="navigation">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
+      <img src="images/wwr-logo.png" alt="Rafting Site Logo" />
+      <nav>
+        <ul class="top-navigation">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="trips.html">Trips</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
     </header>
-    
     <main>
-        <section class="company-info">
-            <h2>Contact Information</h2>
-            <p>Address: 123 River Rd, Rapids City, USA</p>
-            <p>Phone: (123) 456-7890</p>
-            <p>Email: <a href="mailto:info@lazyriverrafting.com">info@lazyriverrafting.com</a></p>
-            <div class="map-container">
-                <iframe 
-                    src="https://www.google.com/maps/embed?...your-map-embed-url..." 
-                    width="600" 
-                    height="450" 
-                    style="border:0;" 
-                    allowfullscreen="" 
-                    loading="lazy">
-                </iframe>
-            </div>
+      <div class="top-page-div">
+        <h1>Reach Our Team</h1>
+        <p>
+          We'd love to hear from you about questions and feedback. We have a
+          team always ready and happy to help! Here are some ways to contact
+          us...
+        </p>
+      </div>
+      <div class="contact-boxes">
+        <section class="box-1">
+          <h2>Call Us</h2>
+          <p>
+            Call and talk now with our team to discover which trips would work
+            best for you.
+          </p>
+          <p>163-296-0985</p>
         </section>
-
-        <section class="employee-profiles">
-            <h2>Meet Our Team</h2>
-            <figure>
-                <img src="images/employee1.jpg" alt="John Doe - Guide">
-                <figcaption>John Doe - Senior Guide</figcaption>
-            </figure>
-            <figure>
-                <img src="images/employee2.jpg" alt="Jane Smith - Office Manager">
-                <figcaption>Jane Smith - Office Manager</figcaption>
-            </figure>
-            <figure>
-                <img src="images/employee3.jpg" alt="Jake Turner - Safety Coordinator">
-                <figcaption>Jake Turner - Safety Coordinator</figcaption>
-            </figure>
+        <section class="box-2">
+          <h2>Contact Customer Support</h2>
+          <p>
+            We are waiting to help you and your team so don't hesitate to reach
+            out!
+          </p>
+          <button type="submit">Contact Support</button>
         </section>
-
-        <section class="contact-form">
-            <h2>Send Us a Message</h2>
-            <form action="submit_contact.php" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <fieldset>
-                    <legend>Purpose of Contact:</legend>
-                    <label>
-                        <input type="radio" name="purpose" value="general" required>
-                        General Inquiry
-                    </label>
-                    <label>
-                        <input type="radio" name="purpose" value="reservation">
-                        Reservation Question
-                    </label>
-                    <label>
-                        <input type="radio" name="purpose" value="website">
-                        Website Suggestion
-                    </label>
-                </fieldset>
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-
-                <label>
-                    <input type="checkbox" name="subscribe">
-                    Please subscribe me to the monthly newsletter
-                </label>
-
-                <button type="submit">Submit Message</button>
-            </form>
+      </div>
+      <h2 class="map-heading">Our Headquarters</h2>
+      <div class="map">
+        <section class="text-box">
+          <p>Idaho, United States</p>
+          <p>167 Huntington Ave Street, 1703</p>
+          <p>lazyriverrafting@gmail.com</p>
+          <p>+1-617-787-5608</p>
         </section>
+        <section class="img-box">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d67235.29530622244!2d-111.87268532931311!3d43.80921200799809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540baaec4e1a87%3A0x70ffdb717141876a!2sBYU-Idaho%20Outdoor%20Resource%20Center!5e0!3m2!1sen!2sus!4v1721354886532!5m2!1sen!2sus"
+            width="500"
+            height="350"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </section>
+      </div>
+      <h2 class="team-heading">Meet Our Team</h2>
+      <div class="team-members">
+        <section class="team-photos">
+          <figure>
+            <img src="images/devika-dawn.jpg" alt="Devika Dawn" />
+            <figcaption>Devika Dawn, Team Lead</figcaption>
+          </figure>
+          <figure>
+            <img src="images/rimulder-frost.png" alt="Rimulder Frost" />
+            <figcaption>Rimulder Frost, Raft Guide</figcaption>
+          </figure>
+          <figure>
+            <img src="images/meeko-fox.jpg" alt="Meeko Fox" />
+            <figcaption>Meeko Fox, Deckhand</figcaption>
+          </figure>
+        </section>
+      </div>
+      <form>
+        <label class="top-label">Questions/Contact Form</label>
+        <fieldset>
+          <legend>Contact Information</legend>
+          <div class="form-item column2">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" />
+          </div>
+          <div class="form-item column2">
+            <label for="useremail">Email:</label>
+            <input type="email" id="useremail" name="useremail" />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Message Us</legend>
+          <div class="form-item column1">
+            <input type="radio" id="inquiry" name="question" value="inquiry" />
+            <label for="inquiry">General Inquiry</label><br />
+            <input
+              type="radio"
+              id="reservation"
+              name="question"
+              value="reservation"
+            />
+            <label for="reservation">Reservation Question</label><br />
+            <input
+              type="radio"
+              id="suggestion"
+              name="question"
+              value="suggestion"
+            />
+            <label for="suggestion">Wedbsite Suggestion</label>
+          </div>
+          <label for="feedback"
+            >Please send us a message regarding your question/inquiry:</label
+          >
+          <textarea
+            id="feedback"
+            name="feedback"
+            rows="4"
+            placeholder="Type your message here..."
+          >
+          </textarea>
+          <div class="form-item">
+            <label for="subscribe"
+              >Please subscribe me to the monthly newsletter</label
+            >
+            <input type="checkbox" id="subscribe" name="subscribe" />
+          </div>
+        </fieldset>
+        <button class="form-button" type="submit">Send Information</button>
+      </form>
     </main>
-
     <footer>
-        <p>©2024 | Lazy River Rafting | Jonas Crothers</p>
+        <p>©️2024 | Lazy River Rafting | Jonas Crothers</p>
         <nav class="sociallinks">
-            <a href="https://facebook.com">
-                <img src="images/facebook.svg" alt="Facebook">
-            </a>
-            <a href="https://twitter.com">
-                <img src="images/twitter.svg" alt="Twitter">
-            </a>
-            <a href="https://instagram.com">
-                <img src="images/instagram.svg" alt="Instagram">
-            </a>
+          <a href="https://facebook.com">
+            <img src="images/icons8-facebook-48.png" alt="Facebook" width="40" />
+          </a>
+          <a href="https://linkedin.com/">
+            <img src="images/icons8-linkedin-48.png" alt="LinkedIn" width="40" />
+          </a>
+          <a href="https://instagram.com">
+            <img src="images/icons8-instagram-48.png" alt="Instagram" width="40" />
+          </a>
         </nav>
-        <p><a href="wireframes/contact_us_wireframe.png">Contact Us Wireframe</a></p>
-    </footer>
-</body>
+      </footer>
+  </body>
 </html>
+

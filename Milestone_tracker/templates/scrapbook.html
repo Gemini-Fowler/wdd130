@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ child_name }}'s Scrapbook</title>
+</head>
+<body>
+    <h1>{{ child_name }}'s Scrapbook</h1>
+    <a href="{{ url_for('add_milestone_route') }}">Add New Milestone</a> <!-- Link to add milestone page -->
+    <ul>
+        {% for milestone, date, image_path in milestones %}
+        <li>
+            <strong>{{ date }}</strong>: {{ milestone }}  <!-- Display milestone with date -->
+            {% if image_path %}
+            <img src="{{ url_for('static', filename=image_path) }}" alt="Image" width="100"> <!-- Display image if available -->
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
