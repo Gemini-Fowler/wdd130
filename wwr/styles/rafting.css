@@ -2,19 +2,19 @@
 
 :root {
   --primary-color: #1c3d36;
-  --secondary-color: #f9f9f4;
-  --accent1-color: #7ba859;
+  --secondary-color: #000000;
+  --accent1-color: #48a28e;
   --accent2-color: #4a575a;
 
   --heading-font: "Bona Nova SC", serif;
   --paragraph-font: "Dosis", sans-serif;
 
   --nav-background-color: #f9f9f4;
-  --nav-link-color: #7ba859;
+  --nav-link-color: #000000;
   --nav-hover-link-color: #1c3d36;
   --nav-hover-background-color: #4a575a;
 
-  --colored-font: #7ba859;
+  --colored-font: #000000;
 }
 
 h1,
